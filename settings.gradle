@@ -1,2 +1,4 @@
+include ':farrux'
 include ':myModule'
+project(':farrux').projectDir = new File(rootDir, 'businessFeature/app/')
 rootProject.name = "MultiModuleTest"
